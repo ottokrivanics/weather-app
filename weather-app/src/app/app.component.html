@@ -1,1 +1,3 @@
-<app-tile></app-tile>
+<div *ngFor="let data of dataArray">
+    <app-tile name="{{data.name}}" country="{{data.country}}" lat="{{data.lat}}" long="{{data.long}}"></app-tile>
+</div>
