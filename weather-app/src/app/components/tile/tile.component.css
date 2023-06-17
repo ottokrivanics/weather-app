@@ -19,6 +19,11 @@
 
 #cityName {
     font-weight: 700;
+    font-size: large;
+}
+
+#countryName {
+    font-size: smaller;
 }
 
 img {
